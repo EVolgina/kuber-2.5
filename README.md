@@ -66,7 +66,7 @@ name: chart
 description: A Helm chart for deploying your application
 version: 0.1.2
 ```
-Удалим helm chart, затем создадим новый в namespace
+Удалим helm chart, затем создадим новый в namespace app1 и app2
 ```
 vagrant@vagrant:~/helm$ helm uninstall chart
 release "chart" uninstalled
